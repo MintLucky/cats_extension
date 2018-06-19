@@ -1,0 +1,21 @@
+{
+  "name": "Give me Cats!",
+  // Название расширения
+  "version": "1.0",
+  "manifest_version" : 2,
+  // Номер версии
+  "description": "Extension for chrome that calming the periodic neuroses that appear in programmers, by demonstrating funny pictures with cats",
+  // Описание расширения
+  "permissions": [
+    "http://thecatapi.com/*"
+  ],
+  "browser_action": {
+    // Элементы браузера
+    "default_title": "I love Cats!",
+    // Название кнопки
+    "default_icon": "images/cat_icon.png",
+    // Иконка для кнопки
+    "default_popup": "cats_popup.html"
+    // Всплывающее окно
+  }
+}
